@@ -94,7 +94,7 @@ x = layers.UpSampling2D((2, 2))(x)
 decoded = layers.Conv2D(1, (3, 3), activation='sigmoid', padding='same')(x)
 
 autoencoder = keras.Model(input_img, decoded)
-print("Name: S Dhanush Praboo, Reg No: 212221230019")
+print("Name: Syed Muhammed Zahi, Reg No: 212221230114")
 autoencoder.summary()
 
 autoencoder.compile(optimizer='adam', loss='binary_crossentropy')
